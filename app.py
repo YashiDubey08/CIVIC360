@@ -122,6 +122,23 @@ def show_status(status):
 
 st.markdown("""
 <style>
+/* Improve alert and information message readability */
+[data-testid="stAlert"] {
+    background-color: #1E293B !important;
+    border: 1px solid #38BDF8 !important;
+    border-radius: 10px !important;
+}
+
+[data-testid="stAlert"] p {
+    color: #FFFFFF !important;
+    font-weight: 500 !important;
+}
+
+[data-testid="stAlert"] svg {
+    color: #38BDF8 !important;
+    fill: #38BDF8 !important;
+}
+
 
 .stApp {
     background-color: #0b1628;
