@@ -1,4 +1,8 @@
-# CIVIC360 – Smart Civic Issue Reporting System
+<p align="center">
+  <img src="civic360-banner.png" width="100%" alt="CIVIC360 Project Banner">
+</p>
+
+## CIVIC360 – Smart Civic Issue Reporting System
 
 CIVIC360 is a web-based platform designed to simplify civic issue reporting, tracking, and management through a centralized digital system.
 
