@@ -8,11 +8,6 @@ CIVIC360 is a web-based platform designed to simplify civic issue reporting, tra
 ## Project Purpose
 To provide a centralized platform where citizens can report civic issues, share location-based evidence, and track complaint status efficiently.
 
-## Website Preview
-
-![CIVIC360 Dashboard]
-(assets/civic360-preview.png)
-
 ## Project Impact
 Promotes transparency, simplifies civic issue reporting, and supports better monitoring and prioritization of public infrastructure issues.
 
