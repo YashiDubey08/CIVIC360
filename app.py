@@ -120,37 +120,18 @@ def show_status(status):
 # GLOBAL STYLING
 # =========================================================
 
+
 st.markdown("""
 <style>
-/* Improve alert and information message readability */
-[data-testid="stAlert"] {
-    background-color: #1E293B !important;
-    border: 1px solid #38BDF8 !important;
-    border-radius: 10px !important;
-}
 
-[data-testid="stAlert"] p {
-    color: #FFFFFF !important;
-    font-weight: 500 !important;
-}
-
-[data-testid="stAlert"] svg {
-    color: #38BDF8 !important;
-    fill: #38BDF8 !important;
-}
-
-
+/* ===== MAIN WEBSITE ===== */
 .stApp {
-    background-color: #0b1628;
-    color: #ffffff;
-}
-
-[data-testid="stSidebar"] {
-    background-color: #101f35;
+    background-color: #0b1628 !important;
+    color: #ffffff !important;
 }
 
 [data-testid="stHeader"] {
-    background: transparent;
+    background: transparent !important;
 }
 
 .block-container {
@@ -159,38 +140,116 @@ st.markdown("""
     max-width: 1450px;
 }
 
-h1, h2, h3 {
-    color: #ffffff;
+/* ===== SIDEBAR ===== */
+[data-testid="stSidebar"] {
+    background-color: #101f35 !important;
+}
+
+[data-testid="stSidebar"] * {
+    color: #dce8f5;
+}
+
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3 {
+    color: #ffffff !important;
+}
+
+/* ===== HEADINGS AND TEXT ===== */
+h1, h2, h3, h4 {
+    color: #ffffff !important;
 }
 
 p, label {
     color: #d1deed;
 }
 
+/* ===== ALERTS: SUCCESS, WARNING, INFO, ERROR ===== */
+[data-testid="stAlert"] {
+    background-color: #1E293B !important;
+    border: 1px solid #38BDF8 !important;
+    border-radius: 10px !important;
+}
+
+[data-testid="stAlert"] * {
+    color: #ffffff !important;
+    opacity: 1 !important;
+}
+
+/* Alert icons */
+[data-testid="stAlert"] svg {
+    color: #38BDF8 !important;
+    fill: none !important;
+}
+
+/* ===== INPUT FIELDS ===== */
+.stTextInput input,
+.stTextArea textarea,
+.stNumberInput input {
+    background-color: #ffffff !important;
+    color: #172033 !important;
+    border-radius: 8px !important;
+}
+
+.stSelectbox div[data-baseweb="select"] {
+    background-color: #ffffff !important;
+    color: #172033 !important;
+}
+
+.stSelectbox div[data-baseweb="select"] * {
+    color: #172033 !important;
+}
+
+/* Labels above input fields */
+.stTextInput label,
+.stTextArea label,
+.stSelectbox label,
+.stNumberInput label,
+.stFileUploader label {
+    color: #ffffff !important;
+}
+
+/* ===== BUTTONS ===== */
 .stButton > button {
-    background: linear-gradient(90deg, #087eae, #36c6e9);
-    color: white;
-    border: none;
-    border-radius: 10px;
-    font-weight: bold;
+    background: linear-gradient(90deg, #087eae, #36c6e9) !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 10px !important;
+    font-weight: bold !important;
     min-height: 43px;
 }
 
 .stButton > button:hover {
-    background: #53d8f3;
-    color: #071629;
-    border: none;
+    background: #53d8f3 !important;
+    color: #071629 !important;
+    border: none !important;
 }
 
+/* ===== METRIC CARDS ===== */
 div[data-testid="stMetric"] {
-    background: #142943;
-    border: 1px solid #284c6c;
-    padding: 18px;
-    border-radius: 12px;
+    background: #142943 !important;
+    border: 1px solid #284c6c !important;
+    padding: 18px !important;
+    border-radius: 12px !important;
 }
 
 div[data-testid="stMetricValue"] {
-    color: #55d9f5;
+    color: #55d9f5 !important;
+}
+
+div[data-testid="stMetricLabel"] {
+    color: #ffffff !important;
+}
+
+/* ===== DATAFRAME AND TABLE ===== */
+[data-testid="stDataFrame"] {
+    border: 1px solid #284c6c;
+    border-radius: 10px;
+}
+
+/* ===== DIVIDERS ===== */
+hr {
+    border-color: #36516e !important;
 }
 
 </style>
