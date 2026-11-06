@@ -10,7 +10,8 @@ To provide a centralized platform where citizens can report civic issues, share 
 
 ## Website Preview
 
-![CIVIC360 Dashboard](assets/civic360-preview.png)
+![CIVIC360 Dashboard]
+(assets/civic360-preview.png)
 
 ## Project Impact
 Promotes transparency, simplifies civic issue reporting, and supports better monitoring and prioritization of public infrastructure issues.
